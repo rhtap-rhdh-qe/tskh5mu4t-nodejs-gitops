@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: tskh5mu4t-nodejs-repository
+spec:
+  url: https://github.com/rhtap-rhdh-qe/tskh5mu4t-nodejs

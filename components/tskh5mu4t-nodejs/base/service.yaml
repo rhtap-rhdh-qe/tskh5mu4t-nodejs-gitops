@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata: 
+  labels: 
+    app.kubernetes.io/instance: tskh5mu4t-nodejs
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: tskh5mu4t-nodejs 
+  name: tskh5mu4t-nodejs
+spec:
+  ports:
+  - port: 3001 
+    targetPort: 3001 
+  selector:
+    app.kubernetes.io/instance: tskh5mu4t-nodejs 
